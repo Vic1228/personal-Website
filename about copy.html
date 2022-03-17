@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Vic Cai" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="這是Vic的個人網站" />
+    <title>首頁 | Vic 網頁前端工程師</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Noto+Sans+TC&family=Spectral:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    
+    <div class="wrapper">
+      <!-- NAV -->
+      <div class="headerpage"></div>
+      
+      <!-- 內文 -->
+      <div class="row sidebarMargin" style="width: 100%">
+        <div id="particles-js"></div>
+        <div class="col-md-12 col-lg-6" style="padding-right: 40px">
+          <div id="about">
+            <div id="about-body">
+              <div id="about-h2">
+                <div id="about-text2">
+                  <div class="d1">a</div>
+                  <div class="d2">b</div>
+                  <div class="d3">o</div>
+                  <div class="d4">u</div>
+                  <div class="d5">t</div>
+                  <div style="margin-left: 20px"></div>
+                  <div class="d6">m</div>
+                  <div class="d7">e</div>
+                </div>
+              </div>
+              <div id="about2-p" style="margin-bottom: 60px">
+                <div>
+                  <p>
+                    您好，我是Vic！在大學時主修企業管理，對於資訊、程式領域充滿興趣，勇於探索、嘗試全新的事物，亦有主動且良好的學習能力，樂於學習新的事物。
+                  </p>
+                  <br />
+                  <p>
+                    在畢業後於高雄百貨業工作三年，期間無意間接觸到程式語言，
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="about-photo" class="col-md-12 col-lg-6">
+          <div id="about-photo2">
+            <img style="width: 45vmax" src="./photo/aboutPhoto.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- 漢堡設定 -->
+      <div class="footerpage"></div>
+    </div>
+    </div>
+    <!-- 以下為Script引用 -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"
+      integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- <script
+      type="text/javascript"
+      color="255,255,255"
+      count="50"
+      src="https://cdn.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.js"
+    ></script> -->
+    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./js/js.js"></script>
+    <script src="./js/about2.js"></script>
+    <script>
+      particlesJS.load("particles-js", "particlesjs-config.json", function () {
+        console.log("callback - particles.js config loaded");
+      });
+      $(".headerpage").load("navbar.html");
+      $(".footerpage").load("burger.html");
+    </script>
+  </body>
+</html>
