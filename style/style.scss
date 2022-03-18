@@ -260,7 +260,6 @@ a:focus {
     margin-top: -15px;
     margin-left: 30px;
     display: flex;
-
     div {
       line-height: 6.5rem;
       font-size: 4.5vmax;
@@ -363,6 +362,31 @@ a:focus {
     padding-top: 5px;
     font-size: 25px;
     color: #fff;
+  }
+}
+/* ---------------------------------------------------
+      skills
+  ----------------------------------------------------- */
+#work01 {
+  // overflow: auto;
+  padding: 30px;
+  // background-color: blue;
+  width: 100vw;
+  min-height: 28vmin;
+  h1,
+  h5,
+  p {
+    font-family: "Open Sans", sans-serif;
+  }
+  h5 {
+    margin-top: -3px;
+    color: #515152;
+  }
+  h1 {
+    color: white;
+  }
+  p {
+    color: white;
   }
 }
 /* ---------------------------------------------------
