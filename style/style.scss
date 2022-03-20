@@ -105,11 +105,13 @@ a:focus {
 #sidebarCollapse {
   display: flex;
   justify-content: space-around;
-  background-color: #fffb00;
+  background-color: #000000;
+  opacity: 0.5;
   visibility: hidden;
   position: fixed;
   align-items: center;
   left: 100vw;
+  top: 4.5vw;
   height: 50px;
   width: 50px;
   font-size: 30px;
