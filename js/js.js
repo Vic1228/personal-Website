@@ -1,6 +1,10 @@
-$("#sidebarCollapse").on("click", function () {
+function burgaerBtn() {
   $("#sidebar").toggleClass("active");
-});
+}
+
+// $("#sidebarCollapse").on("click", function () {
+//   $("#sidebar").toggleClass("active");
+// });
 
 $(".icon01")
   .mouseover(() => {
