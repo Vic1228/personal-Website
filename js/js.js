@@ -1,7 +1,5 @@
-$(document).ready(function () {
-  $("#sidebarCollapse").on("click", function () {
-    $("#sidebar").toggleClass("active");
-  });
+$("#sidebarCollapse").on("click", function () {
+  $("#sidebar").toggleClass("active");
 });
 
 $(".icon01")
@@ -27,5 +25,3 @@ $(".icon03")
   .mouseout(() => {
     $(".icon03").prop("src", "./icon/facebook-ICON-1.png");
   });
-
-
