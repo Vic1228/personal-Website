@@ -336,6 +336,9 @@ a:focus {
 #about-siklls {
   margin-top: 150px;
   padding-left: 50px;
+  // skills {
+  //   width: 10%;
+  // }
   p {
     font-weight: bold;
     color: #fff;
@@ -347,6 +350,7 @@ a:focus {
   #example4,
   #example5,
   #example6 {
+    width: 82%;
     height: 4px;
   }
 }
