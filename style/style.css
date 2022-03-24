@@ -237,6 +237,7 @@ a:focus {
 }
 
 #about #about2-p p {
+  line-height: 30px;
   margin-left: 40px;
   word-wrap: break-word;
 }
